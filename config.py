@@ -17,12 +17,12 @@ def is_enabled(value, default):
 
 class Config(object):
     # Bot Information 
-    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "7211200915:AAHYmpFqwjyhvVqdXZzjQuBBn7HaJna1gfs")
-    TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "URL_upload_RoBot") # Bot username without @.
+    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "7471196562:AAF2IGQCl-pz4tDjeCHXRJtMZyd4MwRjxZg")
+    TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "anime_mania_0_uploader_bot") # Bot username without @.
     
     # The Telegram API things
-    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", "21661450"))
-    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "79612bc71908f95372808520a7eeee74")
+    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", "26684254"))
+    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "fc836096a68be3a4fcd7594cb3d9326f")
     
     # the download location, where the HTTP Server runs
     TECH_VJ_DOWNLOAD_LOCATION = "./DOWNLOADS"
@@ -37,7 +37,7 @@ class Config(object):
     # default thumbnail to be used in the videos
     
     # proxy for accessing youtube-dl in GeoRestricted Areas
-    # Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061
+    # Get your own proxy from https://github.com/rg3/youtube-dl/issu es/1091#issuecomment-230163061
     TECH_VJ_HTTP_PROXY = ""
     
     # maximum message length in Telegram
@@ -47,18 +47,18 @@ class Config(object):
     TECH_VJ_PROCESS_MAX_TIMEOUT = 3600
     
     # your telegram account id
-    TECH_VJ_OWNER_ID = int(os.environ.get("TECH_VJ_OWNER_ID", "2021408974")) 
+    TECH_VJ_OWNER_ID = int(os.environ.get("TECH_VJ_OWNER_ID", "6161189904")) 
     TECH_VJ_SESSION_NAME = "VJ-URL-UPLOADER-BOT"
     
     # database uri (mongodb)
-    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "mongodb+srv://MadhanBlastz:N0password@cluster0.cgumfin.mongodb.net/?retryWrites=true&w=majority")
+    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "mongodb+srv://renamebot:amrenamebot@cluster0.5ornz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     TECH_VJ_MAX_RESULTS = "50"
 
     # channel information
-    TECH_VJ_LOG_CHANNEL = int(os.environ.get("TECH_VJ_LOG_CHANNEL", "-1002233706633")) # your log channel id and make bot admin in log channel with full right 
+    TECH_VJ_LOG_CHANNEL = int(os.environ.get("TECH_VJ_LOG_CHANNEL", "-1002302055616) # your log channel id and make bot admin in log channel with full right 
     
     # if you want force subscribe then give your channel id below else leave blank
-    tech_vj_update_channel = environ.get('TECH_VJ_UPDATES_CHANNEL', '') # your update channel id and make bot admin in update channel with full right
+    tech_vj_update_channel = environ.get('TECH_VJ_UPDATES_CHANNEL', '-1002026477147') # your update channel id and make bot admin in update channel with full right
     TECH_VJ_UPDATES_CHANNEL = int(tech_vj_update_channel) if tech_vj_update_channel and id_pattern.search(tech_vj_update_channel) else None  
     
     # Url Shortner Information 
